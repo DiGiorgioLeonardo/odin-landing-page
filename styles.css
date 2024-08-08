@@ -6,7 +6,6 @@
     font-family: Roboto;
 }
 
-
 .header,
 .footer,
 .hero
@@ -108,9 +107,27 @@ ul
 
 .info
 {
-    height: 100px; /* Temporary */
-
+    height: 400px; /* Temporary */
+    text-align: center;
+    padding: 48px 0px;
 }
+
+.info-container
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 60%;
+    margin: 0px auto;
+}
+
+.info-title
+{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+}
+
 
 .quote
 {
