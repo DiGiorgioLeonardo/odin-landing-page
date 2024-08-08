@@ -17,7 +17,8 @@
 .header, /* More elements will be added when necessary */
 .footer,
 .hero-img,
-a
+a,
+p
 {
     color: #E5E7EB;
     text-decoration: none;
@@ -63,7 +64,6 @@ ul
 
 .hero-container
 {
-    border: 1px solid #F9FAF8;
     width: 70%;
     height: 100%;
     margin: 0 auto;
@@ -74,6 +74,18 @@ ul
 .hero-img
 {
     flex: 1 0 0;
+}
+
+.hero-textbox
+{
+    padding-right: 48px;
+}
+
+.hero-textbox h1
+{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
 }
 
 .hero-img
