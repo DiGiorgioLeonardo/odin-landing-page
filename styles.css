@@ -6,6 +6,7 @@
     font-family: Roboto;
 }
 
+
 .header,
 .footer,
 .hero
@@ -13,10 +14,44 @@
     background: #1F2937;
 }
 
+.header, /* More elements will be added when necessary */
+.footer,
+a
+{
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
 .header,
 .footer
 {
     height: 75px;
+    font-size: 18px;
+}
+
+.header-container
+{
+    width:   70%;
+    height: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul
+{
+    padding: 0px;
+    margin:  0px;
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+.logo
+{
+    color: #F9FAF8;
+    font-size: 24px;
 }
 
 .info
@@ -29,4 +64,11 @@
 {
     background: #E5E7EB;
     height: 100px; /* Temporary */
+}
+
+.footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
