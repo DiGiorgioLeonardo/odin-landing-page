@@ -26,7 +26,7 @@ a
 .footer
 {
     height: 75px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .header-container
@@ -53,6 +53,21 @@ ul
     color: #F9FAF8;
     font-size: 24px;
 }
+
+.hero
+{
+    height: 350px; /* Subject to change */
+    padding: 50px 0px;
+}
+
+.hero-container
+{
+    border: 1px solid #F9FAF8;
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+}
+
 
 .info
 {
