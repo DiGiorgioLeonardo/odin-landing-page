@@ -133,7 +133,7 @@ ul
 {
     height: 100%;
     display: flex;
-    gap: 32px;
+    gap: 48px;
 }
 
 .box
@@ -159,7 +159,16 @@ ul
 .quote
 {
     background: #E5E7EB;
-    height: 100px; /* Temporary */
+    height: 400px; /* Temporary */
+    padding: 50px 0;
+}
+
+.quote-container 
+{
+    border: 1px solid black;
+    height: 100%;
+    width: 60%;
+    margin: 0px auto;
 }
 
 .footer
