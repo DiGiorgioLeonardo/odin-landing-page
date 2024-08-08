@@ -159,17 +159,50 @@ ul
 .quote
 {
     background: #E5E7EB;
-    height: 400px; /* Temporary */
     padding: 50px 0;
 }
 
 .quote-container 
 {
-    border: 1px solid black;
     height: 100%;
     width: 60%;
     margin: 0px auto;
+    padding: 16px;
 }
+
+.quote-text
+{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-author
+{
+    color: #1F2937;
+    font-weight: 800;
+    font-size: 18px;
+    text-align: right;
+}
+
+.signup
+{
+    height: 300px;
+    padding: 75px 0px;
+}
+
+.signup-container
+{
+    background: #3882F6;
+    border: none;
+    height: 100%;
+    width: 70%;
+    margin: 0px auto;
+    border-radius: 10px;
+}
+
+
 
 .footer
 {
