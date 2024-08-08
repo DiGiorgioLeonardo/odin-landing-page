@@ -1,0 +1,32 @@
+*
+{
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+.header,
+.footer,
+.hero
+{
+    background: #1F2937;
+}
+
+.header,
+.footer
+{
+    height: 75px;
+}
+
+.info
+{
+    height: 100px; /* Temporary */
+
+}
+
+.quote
+{
+    background: #E5E7EB;
+    height: 100px; /* Temporary */
+}
